@@ -9,6 +9,7 @@ def target(X):
     plt.show()
 
 def paramOptimization(scores,ns):
+    '''function for plotting scores'''
     sns.lineplot(x=ns, y=scores)
     plt.show()
 

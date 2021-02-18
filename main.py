@@ -1,4 +1,4 @@
-#Thomas Hübscher / 11.02.2021
+#Thomas Hübscher / 15.02.2021
 # program for predicting glass types via decison tree and random forest
 
 import pandas as pd
@@ -8,7 +8,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import GridSearchCV
 
 import dataInfo
-import preprocess
 import plot
 
 filePath = 'glass.csv'
